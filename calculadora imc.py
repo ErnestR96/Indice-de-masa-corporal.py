@@ -6,17 +6,17 @@ while not nombre.isalpha():
 while nombre.isspace():
     nombre = input('Ingresa tu nombre: ')
 
-Ap = input('Ingresa tu apellido paterno: ')
-while not Ap.isalpha():
-    Ap = input('Ingresa tu apellido paterno: ')
+ap = input('Ingresa tu apellido paterno: ')
+while not ap.isalpha():
+    ap = input('Ingresa tu apellido paterno: ')
 while Ap.isspace():
-    Ap = input('Ingresa tu apellido paterno: ')
+    ap = input('Ingresa tu apellido paterno: ')
 
-Am = input('Ingresa tu apellido materno: ')
-while not Am.isalpha():
-    Am = input('Ingresa tu apellido materno: ')
-while Am.isspace():
-    Am = input('Ingresa tu apellido materno: ')
+am = input('Ingresa tu apellido materno: ')
+while not am.isalpha():
+    am = input('Ingresa tu apellido materno: ')
+while am.isspace():
+    am = input('Ingresa tu apellido materno: ')
 
 edad = (input('dime tu edad: '))
 while not edad.isdigit():
@@ -59,3 +59,5 @@ elif IMC >= 35.0 and IMC <= 39.9:
 
 else:
     print('tienes obesidad morbida')
+    
+print('Fin del programa')
