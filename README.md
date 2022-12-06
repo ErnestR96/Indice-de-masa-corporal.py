@@ -1,4 +1,4 @@
-# Proyecto del módulo 1
+# Cálculo del índice de masa corporal
 ## Título
 ### Subtítulo
 
